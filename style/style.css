@@ -165,10 +165,59 @@ body {
     .form {
         width: 100%;
     }
+    .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.1rem;
+    }
     .input-box input {
         margin: 1px 0;
         padding: 1px 1px;
         border: none;
         border-radius: 1px;
         box-shadow: 1px 1px 6px #0000001c;
+    }
+}
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10px;
+        padding-right: 10px;
+    }
+    .gender-input {
+        margin-top: 5px;
+    }
+    .gender-input {
+        margin-top: 10px;
+    }
+    .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1px;
+    }
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1px;
+    }
+    .input-box input {
+        margin: 1px 0;
+        padding: 1px 1px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px #0000001c;
+    }
 }
