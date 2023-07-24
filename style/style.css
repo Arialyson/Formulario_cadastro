@@ -19,7 +19,6 @@ body {
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
-    border-style: solid;
 }
 .form-img {
     width: 50%;
@@ -28,8 +27,6 @@ body {
     align-items: center;
     background-color: #fde317d7;
     padding: 1rem;
-    border-style: solid;
-    border-color: red;
 }
 .form-img img {
     width: 31rem;
@@ -42,8 +39,6 @@ body {
     flex-direction: column;
     background-color: white;
     padding: 3rem;
-    border-style: solid;
-    border-color: blue;
 }
 .form-header {
     margin-bottom: 3rem;
